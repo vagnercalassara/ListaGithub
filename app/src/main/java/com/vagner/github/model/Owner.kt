@@ -18,5 +18,5 @@ data class Owner(
     val starred_url: String,
     val subscriptions_url: String,
     val type: String,
-    val url: String
+    val url: String,
 )

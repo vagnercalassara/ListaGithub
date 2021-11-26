@@ -78,5 +78,5 @@ data class Item(
     val url: String,
     val visibility: String,
     val watchers: Int,
-    val watchers_count: Int
+    val watchers_count: Int,
 )

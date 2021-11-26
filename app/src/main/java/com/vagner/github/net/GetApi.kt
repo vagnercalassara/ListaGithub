@@ -1,13 +1,8 @@
 package com.vagner.github.model
 
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
-import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.GET
-import retrofit2.http.QueryMap
 import java.util.concurrent.TimeUnit
 
 class GetApi {
@@ -22,14 +17,5 @@ class GetApi {
             return OkHttpClient.Builder().connectTimeout(10, TimeUnit.SECONDS)
                 .readTimeout(10, TimeUnit.SECONDS).build()
         }
-
-        fun gson(): Gson = GsonBuilder().create()
-
-
     }
-}
-
-interface ServicesApi {
-    @GET("repositories")
-    fun listAll(@QueryMap filtros: Map<String, String>): Call<Github>
 }
