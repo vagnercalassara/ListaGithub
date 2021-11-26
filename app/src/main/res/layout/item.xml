@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_repositorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+
+                android:textColor="@color/purple_500"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                tools:text="Nome Repositório" />
+
+            <TextView
+                android:id="@+id/text_desc_respositorio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                tools:text="Descrição do repositório lorem ipsum dolor sit amet lorem ipsum dolor" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <TextView
+                        android:id="@+id/text_star"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="6dp"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:maxLines="@integer/material_motion_duration_long_2"
+                        android:singleLine="true"
+                        android:text="125632"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/ic_baseline_source_fork" />
+
+                    <TextView
+                        android:id="@+id/text_fork"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:maxLines="@integer/material_motion_duration_long_2"
+                        android:singleLine="true"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="14dp"
+                        tools:text="125632" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:cropToPadding="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/purple_500"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    tools:text="Vagner calassara" />
+
+                <TextView
+                    android:id="@+id/text_sobrenome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    tools:text="vagnercalassara" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

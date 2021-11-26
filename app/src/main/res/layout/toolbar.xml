@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/app_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/purple_500"
+    android:elevation="4dp"
+    android:textAlignment="center"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@color/white"
+    app:navigationIcon="@drawable/ic_baseline_menu_24"
+    app:title="Github JavaPOP">
+
+
+</androidx.appcompat.widget.Toolbar>

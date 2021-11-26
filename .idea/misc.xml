@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2703125" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.38385416666666666" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_baseline_sort_by_alpha_24.xml" value="0.38385416666666666" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_baseline_source_fork.xml" value="0.38385416666666666" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.38385416666666666" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2490740740740741" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.38385416666666666" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/activity_main.xml" value="0.36770833333333336" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/cadastro_fragment.xml" value="0.264" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/github_item.xml" value="0.536" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/item.xml" value="0.536" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/list_github_fragment.xml" value="0.25" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/layout/toolbar.xml" value="0.1875" />
+        <entry key="..\:/07 - KOTLIN/Github/app/src/main/res/menu/menu.xml" value="0.36770833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
